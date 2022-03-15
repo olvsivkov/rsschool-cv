@@ -13,12 +13,14 @@
 * GitHub: olvsivkov
 
 * Location: Saint-Petersburg, Russia
+
 *****
 
 #### About Me
 Hello everyone. A year ago I decided to change my life and started studying frontend development. One day I saw a programmer writing simple HTML markup and I wanted to learn how to do it. 
 
 Why frontend? Because I like to see the result of my work right away and am ready to work hard on it . In my github you can see my first self-written work in Notepad++
+
 *****
 
 #### Skills
@@ -29,6 +31,7 @@ Why frontend? Because I like to see the result of my work right away and am read
 * Git
 * VS Code
 * Figma
+
 *****
 
 #### Code example:
