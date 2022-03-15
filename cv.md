@@ -55,11 +55,11 @@ function highAndLow(numbers){
 
 #### Education
 
-* HTML (Codeacademy.com + RSSchool#stage0)
+* HTML (Codeacademy.com + RSSchool#Stage0)
 
-* CSS (+ Sass) (Codeacademy.com + htmlacadeny.ru + RSSchool#stage0)
+* CSS (+ Sass) (Codeacademy.com + htmlacadeny.ru + RSSchool#Stage0)
 
-* JavaScript (Learn.javascript.ru + codewars.com + RSSchool#stage0)
+* JavaScript (Learn.javascript.ru + codewars.com + RSSchool#Stage0)
 *****
 
 #### English:
