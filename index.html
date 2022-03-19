@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/font-awersome/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="./assets/img/fire.ico">
+
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="name" id="home">
+            <img class="foto" src="./assets/img/foto.jpg" alt="img profile">
+            <h1 class="name-title">Oleg Sivkov</h1>
+        </div>
+
+        <nav class="nav">
+            <ul class="nav-list">
+
+                <li class="nav-item"><a href="#contacts" class="nav-link Contacts">Contacts</a></li>
+                <li class="nav-item"><a href="#about-me" class="nav-link About-Me">About Me</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link Skills">Skills</a></li>
+                <li class="nav-item"><a href="#code-example" class="nav-link Code-example">Code example</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link Experience">Experience</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link Education">Education</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link English">English</a></li>
+            </ul>
+        </nav>
+        <div></div>
+
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <div class="section" id="contacts">
+                <h2 class="section-title">Contacts:</h2>
+                <ul class="main-list">
+                    <li><i class="fa fa-phone" aria-hidden="true"></i> + 7 981 951 25 81</li>
+                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i> olvsivkov@yandex.ru</li>
+                    <li><i class="fa fa-github" aria-hidden="true"></i> olvsivkov</li>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>Saint-Petersburg, Russia.</li>
+                </ul>
+            </div>
+            <div class="section" id="about-me">
+                <h2 class="section-title">About Me:</h2>
+                <p>Hello everyone. A year ago I decided to change my life and started studying frontend development. One day I saw a programmer writing simple HTML markup and I wanted to learn how to do it.</p> <br>
+                <p>Why frontend? Because I like to see the result of my work right away and am ready to work hard on it . In my github you can see my first self-written work in Notepad++</p>
+            </div>
+            <div class="section" id="skills">
+                <h2 class="section-title">Skills:</h2>
+                <ul class="main-list">
+                    <li><i class="fa fa-caret-right" aria-hidden="true"></i>HTML</li>
+                    <li><i class="fa fa-caret-right" aria-hidden="true"></i>CSS(+Sass)</li>
+                    <li><i class="fa fa-caret-right" aria-hidden="true"></i>JavaScript (Basic, object, functions, arrays, DOM, async JS)</li>
+                    <li><i class="fa fa-caret-right" aria-hidden="true"></i>Git</li>
+                    <li><i class="fa fa-caret-right" aria-hidden="true"></i>VS Code</li>
+                    <li><i class="fa fa-caret-right" aria-hidden="true"></i>Figma</li>
+                </ul>
+            </div>
+            <div class="section" id="code-example">
+                <h2 class="section-title">Code example:</h2>
+                <p>You get an array of numbers, return the sum of all of the positives ones.</p>
+                <p>Example [1, -4, 7, 12] => 1 + 7 + 12 = 20</p>
+                <p>Note: if there is nothing to sum, the sum is default to 0.</p>
+                <div class="code-examle">
+                    <code>
+                    function positiveSum(arr) { 
+                </code> <br>
+                    <code>
+                        let num = arr.filter(item => item > 0); 
+                </code> <br>
+                    <code>      
+                        return num.reduce((sum, current) => sum + current, 0)
+                      }
+                </code>
+                </div>
+            </div>
+            <div class="section" id="experience">
+                <h2 class="section-title">Experience:</h2>
+                <p>My first project: <a class="github-link" href="https://github.com/olvsivkov/1_progect_Pugs" target="_blank">Go to github</a></p>
+            </div>
+            <div class="section" id="education">
+                <h2 class="section-title">Education:</h2>
+                <ul class="main-list">
+                    <li><i class="fa fa-caret-right" aria-hidden="true"></i>HTML (Codeacademy.com)</li>
+                    <li><i class="fa fa-caret-right" aria-hidden="true"></i>CSS (+Sass) (Codeacademy.com + htmlacademy.ru)</li>
+                    <li><i class="fa fa-caret-right" aria-hidden="true"></i>JavaScript (Learn.javascript.ru + codewars.com)</li>
+                </ul>
+            </div>
+            <div class="section" id="english">
+                <h2 class="section-title">English:</h2>
+                <ul class="main-list">
+                    <li><i class="fa fa-caret-right" aria-hidden="true"></i>English - A1 (A2 in process…)</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer-list">
+                <li><a href="#home" class="footer-link">to navigation</a></li>
+                <li>
+                    <a href="https://github.com/olvsivkov" class="footer-link">Link to my GitHub</a>
+                </li>
+                <li>Creation year 2022</li>
+                <li>
+                    <p>
+                        <a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool logo" class="logo"></a>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
