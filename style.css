@@ -1,0 +1,350 @@
+/*reset basic settings CSS*/
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p,
+li {
+    color: #1BA098;
+    /* look this!!! */
+}
+
+
+/*--------------------*/
+
+
+/*----<<< fonts>>>----*/
+
+@font-face {
+    font-family: "Dosis";
+    src: url("assets/fonts/Dosis-VariableFont_wght.ttf");
+}
+
+
+/*----<<< body >>>----*/
+
+body {
+    font-family: "Dosis", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 7%;
+    background-color: #051622;
+    /* look this!!! */
+}
+
+
+/*----<<< header >>>----*/
+
+.foto {
+    border-radius: 50%;
+    box-shadow: 4px 3px 10px rgb(172, 170, 170);
+    margin: 15px;
+}
+
+.nav {
+    background-color: #051622;
+    /* look this!!! */
+    border: 1px solid #DEB992;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /*padding: 0 7%;*/
+}
+
+@media(max-width: 961px) {
+    .nav-list {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 1%;
+    }
+}
+
+.nav-link {
+    padding: 10px 20px;
+    line-height: 50px;
+    transition: .1s;
+    color: #1BA098;
+    /* look this!!! */
+    transition: color 0.5s;
+    box-sizing: border-box;
+}
+
+.nav-link:hover {
+    color: #96ddd8;
+    /* look this!!! */
+    border: 1px solid #5a4d4d;
+    border-radius: 5px;
+    background-color: #051622;
+    /* look this!!!  */
+    box-sizing: border-box;
+}
+
+.name {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 7%;
+}
+
+@media(max-width: 768px) {
+    .name {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 1%;
+    }
+}
+
+.name-title {
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #96ddd8;
+    border-bottom: 1px solid #DEB992;
+    /* look this!!! */
+}
+
+
+/*----<<< main >>>----*/
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    /*margin: -5px -5px*/
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #96ddd8;
+    /* look this !!! */
+    padding-bottom: 20px;
+}
+
+.section {
+    padding: 1%;
+    border-bottom: 3px solid #DEB992;
+    border-right: 13px solid #051622;
+    border-bottom-right-radius: 15px;
+    /*margin: 5px 5px;*/
+}
+
+.section {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.main-list li {
+    padding-bottom: 10px;
+}
+
+.github-link {
+    padding: 5px;
+}
+
+.github-link:hover {
+    padding: 5px;
+    color: #1BA098;
+    /* look this !!! */
+    text-decoration: underline;
+}
+
+.code-examle {
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 2px;
+    background-color: #1a2b38;
+    border: 1px solid #DEB992;
+    border-radius: 5px;
+    color: #aa8e71;
+}
+
+.main-list li {
+    padding-left: 15px;
+}
+
+i {
+    margin-right: 10px;
+}
+
+
+/*----<<< footer >>>----*/
+
+.footer-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media(max-width: 768px) {
+    .footer-list {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 1%;
+    }
+}
+
+.footer-link {
+    color: #1BA098;
+    /* look this!!! */
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: #96ddd8;
+    /* look this!!! */
+}
+
+.footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: sticky;
+    bottom: 0;
+    background-color: #051622;
+    /* look this!!! */
+    border: 1px solid #DEB992;
+}
+
+.logo {
+    height: 35px;
+    filter: invert(68%) sepia(39%) saturate(76%) hue-rotate(86deg) brightness(78%) contrast(559%);
+    background-color: #fff;
+}
+
+
+/*----<<< other >>>----*/
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 7%;
+}
+
+.header {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 0 1%;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.light-bright {
+    background-color: #0b324e;
+    border: 1px solid #DEB992;
+    border-radius: 5px;
+}
